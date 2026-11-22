@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="techstore-services-sized" name="Serviços dimensionados">
+    <mxGraphModel dx="2318" dy="1284" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#075331;strokeColor=#075331;fontColor=#FFFFFF;fontStyle=1;fontSize=22;" value="ETAPA 4 — SERVIÇOS DIMENSIONADOS | TECHSTORE" vertex="1">
+          <mxGeometry height="55" width="900" x="420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="clients" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2F0D9;strokeColor=#70AD47;fontColor=#173A24;fontSize=14;" value="CLIENTES — 60 USUÁRIOS&lt;br&gt;10 ADM • 33 OP • 17 ESP&lt;br&gt;Matriz • Campinas • Santos" vertex="1">
+          <mxGeometry height="120" width="250" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="wan" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2F75B5;fontColor=#17365D;fontSize=12;" value="VPN SITE-TO-SITE&lt;br&gt;Campinas / Santos ↔ Matriz" vertex="1">
+          <mxGeometry height="95" width="250" x="360" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="network" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=13;" value="FIREWALL / L3 SWITCHES&lt;br&gt;Inter-VLAN ACL • DHCP Relay&lt;br&gt;VLAN 40 servidores • VLAN 50 impressoras&lt;br&gt;VLAN 90 gerenciamento" vertex="1">
+          <mxGeometry height="135" width="310" x="690" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="c1" edge="1" parent="1" source="clients" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="wan" value="Acesso corporativo">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="c2" edge="1" parent="1" source="wan" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="network" value="Túneis e regras">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="host1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8FC;strokeColor=#70AD47;fontColor=#202020;fontSize=12;" value="SERVIDOR PRINCIPAL — FÍSICO&lt;br&gt;Xeon Silver 4410Y • 64 GB ECC&lt;br&gt;4×2 TB SSD RAID 10 • 4 TB úteis • 2×10 GbE&lt;br&gt;&lt;b&gt;Reserva proposta: 10 vCPU / 32 GB RAM&lt;/b&gt;" vertex="1">
+          <mxGeometry height="120" width="520" x="35" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="host2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2F75B5;fontColor=#17365D;fontSize=12;" value="SERVIDOR DE APLICAÇÕES — FÍSICO&lt;br&gt;Xeon Silver 4410Y • 128 GB ECC&lt;br&gt;4×2 TB SSD RAID 10 • 4 TB úteis • 2×10 GbE&lt;br&gt;&lt;b&gt;Reserva proposta: 18 vCPU / 88 GB RAM&lt;/b&gt;" vertex="1">
+          <mxGeometry height="120" width="520" x="640" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="host3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C65911;fontColor=#202020;fontSize=12;" value="SERVIDOR DE BACKUP — FÍSICO DEDICADO&lt;br&gt;Xeon Silver 4410Y • 64 GB ECC&lt;br&gt;8×4 TB HDD RAID 6 • 24 TB úteis • 1×10 GbE&lt;br&gt;&lt;b&gt;CPU/RAM conforme software de backup escolhido&lt;/b&gt;" vertex="1">
+          <mxGeometry height="120" width="520" x="1240" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" edge="1" parent="1" source="network" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="host1" value="VLAN 40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" edge="1" parent="1" source="network" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="host2" value="VLAN 40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" edge="1" parent="1" source="network" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="host3" value="VLAN 40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ad" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8FC;strokeColor=#70AD47;fontColor=#202020;fontSize=12;" value="SRV-AD01 — AD DS / LDAP&lt;br&gt;Autenticação • contas • grupos • GPO&lt;br&gt;Local: Matriz • 4 vCPU/12 GB compartilhados com DNS/DHCP" vertex="1">
+          <mxGeometry height="100" width="520" x="35" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="dns" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8FC;strokeColor=#70AD47;fontColor=#202020;fontSize=12;" value="SRV-DNS01 — DNS&lt;br&gt;Resolução de nomes e localização AD&lt;br&gt;Local: Matriz • incluído nos 4 vCPU/12 GB acima" vertex="1">
+          <mxGeometry height="90" width="520" x="35" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="dhcp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8FC;strokeColor=#70AD47;fontColor=#202020;fontSize=12;" value="SRV-DHCP01 — DHCP&lt;br&gt;Escopos por VLAN • Relay nas filiais&lt;br&gt;Local: Matriz • incluído nos 4 vCPU/12 GB acima" vertex="1">
+          <mxGeometry height="90" width="520" x="35" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="fs" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8FC;strokeColor=#70AD47;fontColor=#202020;fontSize=12;" value="SRV-FS01 — ARQUIVOS&lt;br&gt;SMB/NTFS • pastas por grupo&lt;br&gt;Local: Matriz • 4 vCPU/16 GB • storage compartilhado" vertex="1">
+          <mxGeometry height="90" width="520" x="35" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="print" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F4F8FC;strokeColor=#70AD47;fontColor=#202020;fontSize=12;" value="SRV-PRINT01 — IMPRESSÃO&lt;br&gt;Filas centralizadas • 7 impressoras nas 3 unidades&lt;br&gt;Local: Matriz • 2 vCPU/4 GB" vertex="1">
+          <mxGeometry height="90" width="520" x="35" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="h10" edge="1" parent="1" source="host1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="ad" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h11" edge="1" parent="1" source="host1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="dns" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h12" edge="1" parent="1" source="host1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="dhcp" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h13" edge="1" parent="1" source="host1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="fs" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h14" edge="1" parent="1" source="host1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="print" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="apps" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2F75B5;fontColor=#17365D;fontSize=12;" value="SRV-APP01 — ERP / CRM / HELP DESK&lt;br&gt;Local: Matriz • 8 vCPU / 32 GB RAM&lt;br&gt;Dependências: AD/DNS, banco, licenças, backup e VPN" vertex="1">
+          <mxGeometry height="105" width="520" x="640" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="db" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DDEBF7;strokeColor=#2F75B5;fontColor=#17365D;fontSize=12;" value="SRV-DB01 — BANCO DE DADOS&lt;br&gt;SGBD a definir com fornecedor&lt;br&gt;Local: Matriz • 8 vCPU / 48 GB RAM propostos&lt;br&gt;Dependências: aplicação, storage, backup" vertex="1">
+          <mxGeometry height="120" width="520" x="640" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="mon" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E4DFEC;strokeColor=#8064A2;fontSize=12;" value="SRV-MON01 — ZABBIX 7.0 + GRAFANA OSS (VM)&lt;br&gt;Ubuntu Server 24.04 LTS • até ~1.000 métricas (baseline)&lt;br&gt;Local: Matriz / NOC Santos • 2 vCPU / 8 GiB RAM&lt;br&gt;100 GB SSD inicial; benchmark obrigatório" vertex="1">
+          <mxGeometry height="125" width="520" x="640" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="h2a" edge="1" parent="1" source="host2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="apps" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2b" edge="1" parent="1" source="host2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="db" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2c" edge="1" parent="1" source="host2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="mon" value="VM reservada">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bkp" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FCE4D6;strokeColor=#C65911;fontColor=#202020;fontSize=12;" value="SRV-BKP01 — BACKUP / RESTAURAÇÃO&lt;br&gt;Local: Matriz • host físico dedicado&lt;br&gt;RAID 6: 24 TB úteis estimados&lt;br&gt;Software ainda a selecionar; repositório isolado" vertex="1">
+          <mxGeometry height="140" width="520" x="1240" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" edge="1" parent="1" source="host3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeColor=#666666;" target="bkp" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="notes" parent="1" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFF2CC;strokeColor=#D6B656;fontSize=12;" value="PREMISSAS E PONTOS DE CONTROLE&lt;br&gt;• vCPU/RAM de serviços são reservas iniciais propostas, não requisitos de fabricante.&lt;br&gt;• Host de aplicações soma 18 vCPU/88 GB de reserva; confirmar núcleos, hipervisor, overhead e folga antes de consolidar.&lt;br&gt;• Host Principal soma 10 vCPU/32 GB de reserva; confirmar execução em VMs ou funções no SO.&lt;br&gt;• Zabbix: referência oficial para porte pequeno = 1.000 métricas, 2 vCPU e 8 GiB; fazer benchmark e dimensionar banco/histórico.&lt;br&gt;• SQL Server 2022 suporta Windows Server 2025 Standard, mas ERP/CRM precisam homologar SGBD e versão.&lt;br&gt;• Apenas um DC previsto: ponto único de falha. Planejar segundo controlador de domínio.&lt;br&gt;• Impressoras, modelos e drivers ainda precisam ser identificados." vertex="1">
+          <mxGeometry height="90" width="1720" x="40" y="1160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
