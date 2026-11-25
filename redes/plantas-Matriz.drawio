@@ -1,0 +1,293 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT" pages="3">
+  <diagram id="floor-matriz" name="Matriz">
+    <mxGraphModel dx="2575" dy="1418" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="head" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#51258B;strokeColor=#51258B;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" value="ETAPA 1 — PLANTA DE REDE | MATRIZ" vertex="1">
+          <mxGeometry height="70" width="1764" x="18" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="floor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#545454;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="890" width="1325" x="45" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="room0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" value="&lt;b&gt;ADMINISTRAÇÃO / RH / FINANCEIRO&lt;/b&gt;&lt;br&gt;10 desktops&lt;br&gt;VLAN 10 • 10.10.10.0/24&lt;br&gt;PT-MAT-ADM-001–010" vertex="1">
+          <mxGeometry height="390" width="650" x="55" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="90" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="155" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="220" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="285" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="90" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="155" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="220" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="285" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="room1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" value="&lt;b&gt;COMERCIAL&lt;/b&gt;&lt;br&gt;11 notebooks&lt;br&gt;VLAN 20 • 10.10.20.0/24&lt;br&gt;Wi-Fi corporativo • VLAN 80" vertex="1">
+          <mxGeometry height="390" width="650" x="707" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="742" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="807" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="872" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="937" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="742" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="807" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="872" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="35" width="45" x="937" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="room2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" value="&lt;b&gt;TI / INFRAESTRUTURA&lt;/b&gt;&lt;br&gt;9 workstations&lt;br&gt;VLAN 30 • 10.10.30.0/24&lt;br&gt;PT-MAT-TI-001–009" vertex="1">
+          <mxGeometry height="390" width="325" x="55" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="90" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="155" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="220" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="285" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="90" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="155" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="220" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="2desk7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="35" width="45" x="285" y="785" as="geometry" />
+        </mxCell>
+        <mxCell id="room3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" value="&lt;b&gt;SALA DE SERVIDORES&lt;/b&gt;&lt;br&gt;3 servidores&lt;br&gt;VLAN 40 • 10.10.40.0/24&lt;br&gt;SRV-MAT-01 a 03 • 10 GbE" vertex="1">
+          <mxGeometry height="390" width="325" x="381" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="3srv0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D7D9DC;strokeColor=#555555;fontSize=12;" value="SRV-1" vertex="1">
+          <mxGeometry height="40" width="110" x="451" y="695" as="geometry" />
+        </mxCell>
+        <mxCell id="3srv1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D7D9DC;strokeColor=#555555;fontSize=12;" value="SRV-2" vertex="1">
+          <mxGeometry height="40" width="110" x="451" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="3srv2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D7D9DC;strokeColor=#555555;fontSize=12;" value="SRV-3" vertex="1">
+          <mxGeometry height="40" width="110" x="451" y="805" as="geometry" />
+        </mxCell>
+        <mxCell id="room4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" value="&lt;b&gt;IMPRESSÃO / APOIO&lt;/b&gt;&lt;br&gt;3 impressoras&lt;br&gt;VLAN 50 • 10.10.50.0/24&lt;br&gt;PRN-MAT-001–003" vertex="1">
+          <mxGeometry height="390" width="325" x="707" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="4prn0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3E7EB;strokeColor=#555555;fontSize=12;" value="PRN-1" vertex="1">
+          <mxGeometry height="45" width="70" x="747" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4prn1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3E7EB;strokeColor=#555555;fontSize=12;" value="PRN-2" vertex="1">
+          <mxGeometry height="45" width="70" x="837" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="4prn2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3E7EB;strokeColor=#555555;fontSize=12;" value="PRN-3" vertex="1">
+          <mxGeometry height="45" width="70" x="927" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="room5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" value="&lt;b&gt;IoT — SALA DE SERVIDORES&lt;/b&gt;&lt;br&gt;1 sensor de temperatura&lt;br&gt;VLAN 60 • 10.10.60.0/24&lt;br&gt;IOT-MAT-001" vertex="1">
+          <mxGeometry height="390" width="325" x="1033" y="515" as="geometry" />
+        </mxCell>
+        <mxCell id="5iot" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E8F2EC;strokeColor=#3B8D65;fontSize=12;" value="IOT" vertex="1">
+          <mxGeometry height="45" width="60" x="1165.5" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="ap0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontSize=12;" value="AP-MAT-1&lt;br&gt;(indicativo)" vertex="1">
+          <mxGeometry height="48" width="120" x="480" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontSize=12;" value="AP-MAT-2&lt;br&gt;(indicativo)" vertex="1">
+          <mxGeometry height="48" width="120" x="980" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B5A6C8;fontSize=16;verticalAlign=top;spacingTop=16;" value="&lt;b&gt;LEGENDA&lt;/b&gt;&lt;br&gt;&lt;br&gt;Setores&lt;br&gt;Pontos de rede&lt;br&gt;Rack&lt;br&gt;Servidor&lt;br&gt;AP (posição ilustrativa)&lt;br&gt;Impressora&lt;br&gt;IoT&lt;br&gt;&lt;br&gt;&lt;b&gt;Observação:&lt;/b&gt;&lt;br&gt;APs ilustrativos; quantidade e cobertura a validar.&lt;br&gt;&lt;br&gt;AP-MAT-01…n • posição e quantidade a validar" vertex="1">
+          <mxGeometry height="890" width="355" x="1400" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-new" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0E9F8;strokeColor=#51258B;fontColor=#51258B;fontSize=14;" value="RACK-MAT-01&lt;br&gt;local exato a confirmar" vertex="1">
+          <mxGeometry height="75" width="250" x="730" y="790" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="floor-campinas" name="Campinas">
+    <mxGraphModel dx="1800" dy="1150" grid="1" gridSize="10" page="1" pageWidth="1800" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="head" value="ETAPA 1 — PLANTA DE REDE | CAMPINAS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#51258B;strokeColor=#51258B;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="18" y="15" width="1764" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="floor" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#545454;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="45" y="110" width="1325" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="room0" value="&lt;b&gt;SUPORTE TÉCNICO + COMERCIAL REGIONAL&lt;/b&gt;&lt;br&gt;15 notebooks&lt;br&gt;VLAN 20 • 10.20.20.0/24&lt;br&gt;Wi-Fi corporativo • VLAN 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="55" y="120" width="650" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk0" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk1" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="155" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk2" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk3" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="285" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk4" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk5" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="155" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk6" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk7" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="285" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="room1" value="&lt;b&gt;ÁREA DE IMPRESSÃO&lt;/b&gt;&lt;br&gt;2 impressoras&lt;br&gt;VLAN 50 • 10.20.50.0/24&lt;br&gt;PRN-CPS-001–002" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="707" y="120" width="325" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1prn0" value="PRN-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3E7EB;strokeColor=#555555;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="747" y="325" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="1prn1" value="PRN-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3E7EB;strokeColor=#555555;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="837" y="325" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ap0" value="AP-CAM-1&lt;br&gt;(indicativo)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1010" width="120" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1" value="AP-CAM-2&lt;br&gt;(indicativo)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1010" width="120" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="&lt;b&gt;LEGENDA&lt;/b&gt;&lt;br&gt;&lt;br&gt;Setores&lt;br&gt;Pontos de rede&lt;br&gt;Rack&lt;br&gt;Servidor&lt;br&gt;AP (posição ilustrativa)&lt;br&gt;Impressora&lt;br&gt;IoT&lt;br&gt;&lt;br&gt;&lt;b&gt;Observação:&lt;/b&gt;&lt;br&gt;APs ilustrativos; quantidade e cobertura a validar.&lt;br&gt;&lt;br&gt;AP-CPS-01…n • posição e quantidade a validar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B5A6C8;fontSize=16;verticalAlign=top;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="110" width="355" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="foot" value="A fonte não separa suporte e comercial entre os 15 notebooks. Planta arquitetônica, andares e posições reais não fornecidos. Layout ilustrativo e sem escala." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8F7;strokeColor=#B9A6D3;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1060" width="1550" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-new" value="TELECOM / RACK&lt;br&gt;RACK-CPS-01 • local exato a confirmar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0E9F8;strokeColor=#51258B;fontColor=#51258B;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="720" width="330" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="floor-santos" name="Santos">
+    <mxGraphModel dx="1800" dy="1150" grid="1" gridSize="10" page="1" pageWidth="1800" pageHeight="1150" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="head" value="ETAPA 1 — PLANTA DE REDE | SANTOS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#51258B;strokeColor=#51258B;fontColor=#FFFFFF;fontSize=28;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="18" y="15" width="1764" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="floor" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#545454;strokeWidth=4;" vertex="1" parent="1">
+          <mxGeometry x="45" y="110" width="1325" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="room0" value="&lt;b&gt;ATENDIMENTO AO CLIENTE&lt;/b&gt;&lt;br&gt;7 notebooks&lt;br&gt;VLAN 20 • 10.30.20.0/24&lt;br&gt;Wi-Fi corporativo • VLAN 80" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="55" y="120" width="650" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk0" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk1" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="155" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk2" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk3" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="285" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk4" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="90" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk5" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="155" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="0desk6" value="NB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="220" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="room1" value="&lt;b&gt;NOC&lt;/b&gt;&lt;br&gt;8 workstations + 2 painéis&lt;br&gt;VLAN 30 • 10.30.30.0/24&lt;br&gt;PT-SAN-NOC-001–008 • painéis a validar" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="707" y="120" width="325" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk0" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="742" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk1" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="807" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk2" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="872" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk3" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="937" y="305" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk4" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="742" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk5" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="807" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk6" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="872" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="1desk7" value="PC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D9D9D9;strokeColor=#888888;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="937" y="390" width="45" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="room2" value="&lt;b&gt;ÁREA DE IMPRESSÃO&lt;/b&gt;&lt;br&gt;2 impressoras&lt;br&gt;VLAN 50 • 10.30.50.0/24&lt;br&gt;PRN-SAN-001–002" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=3;fontColor=#333333;fontSize=16;verticalAlign=top;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="1033" y="120" width="325" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="2prn0" value="PRN-1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3E7EB;strokeColor=#555555;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1073" y="325" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="2prn1" value="PRN-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E3E7EB;strokeColor=#555555;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="1163" y="325" width="70" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="ap0" value="AP-SAN-1&lt;br&gt;(indicativo)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1010" width="120" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1" value="AP-SAN-2&lt;br&gt;(indicativo)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="980" y="1010" width="120" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" value="&lt;b&gt;LEGENDA&lt;/b&gt;&lt;br&gt;&lt;br&gt;Setores&lt;br&gt;Pontos de rede&lt;br&gt;Rack&lt;br&gt;Servidor&lt;br&gt;AP (posição ilustrativa)&lt;br&gt;Impressora&lt;br&gt;IoT&lt;br&gt;&lt;br&gt;&lt;b&gt;Observação:&lt;/b&gt;&lt;br&gt;APs ilustrativos; quantidade e cobertura a validar.&lt;br&gt;&lt;br&gt;AP-SAN-01…n • posição e quantidade a validar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B5A6C8;fontSize=16;verticalAlign=top;spacingTop=16;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="110" width="355" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="foot" value="A fonte não contém planta arquitetônica, andares ou posições reais. Layout ilustrativo e sem escala; confirmar em vistoria." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8F7;strokeColor=#B9A6D3;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1060" width="1550" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="rack-new" value="TELECOM / RACK&lt;br&gt;RACK-SAN-01 • local exato a confirmar" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0E9F8;strokeColor=#51258B;fontColor=#51258B;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="90" y="720" width="330" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

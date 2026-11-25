@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net" agent="ChatGPT">
+  <diagram id="santos" name="Santos">
+    <mxGraphModel dx="1746" dy="961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#51258B;strokeColor=#51258B;fontColor=#FFFFFF;fontSize=25;fontStyle=1;" value="ETAPA 1 — PLANTA DE REDE | FILIAL SANTOS" vertex="1">
+          <mxGeometry height="60" width="1360" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="subtitle" parent="1" style="text;html=1;strokeColor=none;fillColor=none;fontColor=#444444;fontSize=16;" value="7 notebooks • 8 workstations NOC • 2 painéis • 2 impressoras • rede local 10.30.0.0/16 | ESQUEMÁTICA • SEM ESCALA" vertex="1">
+          <mxGeometry height="35" width="1300" x="35" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="floor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#444444;strokeWidth=4;" value="" vertex="1">
+          <mxGeometry height="660" width="950" x="35" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="room0" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=3;fontColor=#222222;fontSize=15;verticalAlign=top;spacingTop=14;" value="&lt;b&gt;ATENDIMENTO AO CLIENTE&lt;/b&gt;&lt;br&gt;7 notebooks&lt;br&gt;&lt;font color=&quot;#2866A8&quot;&gt;VLAN 20 • 10.30.20.0/24&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;Wi-Fi corporativo • VLAN 80&lt;/font&gt;" vertex="1">
+          <mxGeometry height="480" width="390" x="80" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop0-0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF7;strokeColor=#2866A8;fontColor=#17466B;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="42" width="62" x="105" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop0-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF7;strokeColor=#2866A8;fontColor=#17466B;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="42" width="62" x="210" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop0-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF7;strokeColor=#2866A8;fontColor=#17466B;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="42" width="62" x="315" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop0-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF7;strokeColor=#2866A8;fontColor=#17466B;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="42" width="62" x="420" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop0-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF7;strokeColor=#2866A8;fontColor=#17466B;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="42" width="62" x="105" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop0-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF7;strokeColor=#2866A8;fontColor=#17466B;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="42" width="62" x="210" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="laptop0-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DCEAF7;strokeColor=#2866A8;fontColor=#17466B;fontSize=12;" value="NB" vertex="1">
+          <mxGeometry height="42" width="62" x="315" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="room1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=3;fontColor=#222222;fontSize=15;verticalAlign=top;spacingTop=14;" value="&lt;b&gt;NOC&lt;/b&gt;&lt;br&gt;8 workstations + 2 painéis&lt;br&gt;&lt;font color=&quot;#2866A8&quot;&gt;VLAN 30 • 10.30.30.0/24&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;PT-SAN-NOC-001 a 008 • painéis: pontos a validar&lt;/font&gt;" vertex="1">
+          <mxGeometry height="480" width="450" x="480" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="515" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="610" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="705" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="800" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="515" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="610" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="705" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="desktop1-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E2EDE4;strokeColor=#43804E;fontColor=#24512D;fontSize=12;" value="PC" vertex="1">
+          <mxGeometry height="42" width="58" x="800" y="375" as="geometry" />
+        </mxCell>
+        <mxCell id="panel1-0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAF8;strokeColor=#7952A3;fontSize=12;" value="Painel 1" vertex="1">
+          <mxGeometry height="42" width="120" x="555" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="panel1-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3EAF8;strokeColor=#7952A3;fontSize=12;" value="Painel 2" vertex="1">
+          <mxGeometry height="42" width="120" x="725" y="475" as="geometry" />
+        </mxCell>
+        <mxCell id="room2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=3;fontColor=#222222;fontSize=15;verticalAlign=top;spacingTop=14;" value="&lt;b&gt;ÁREA DE IMPRESSÃO&lt;/b&gt;&lt;br&gt;2 impressoras&lt;br&gt;&lt;font color=&quot;#2866A8&quot;&gt;VLAN 50 • 10.30.50.0/24&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;PRN-SAN-001 e PRN-SAN-002&lt;/font&gt;" vertex="1">
+          <mxGeometry height="480" width="300" x="950" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="printer2-0" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E8EA;strokeColor=#555555;fontSize=12;" value="PRN-1" vertex="1">
+          <mxGeometry height="60" width="90" x="995" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="printer2-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6E8EA;strokeColor=#555555;fontSize=12;" value="PRN-2" vertex="1">
+          <mxGeometry height="60" width="90" x="1120" y="295" as="geometry" />
+        </mxCell>
+        <mxCell id="room3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#555555;strokeWidth=3;fontColor=#222222;fontSize=15;verticalAlign=top;spacingTop=14;" value="&lt;b&gt;TELECOM / RACK&lt;/b&gt;&lt;br&gt;RACK-SAN-01 • posição real a confirmar&lt;br&gt;&lt;font color=&quot;#2866A8&quot;&gt;Firewall/roteador • switch • patch panel • nobreak a dimensionar&lt;/font&gt;&lt;br&gt;&lt;font color=&quot;#555555&quot;&gt;Uplink e portas ainda não definidos&lt;/font&gt;" vertex="1">
+          <mxGeometry height="180" width="1190" x="60" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="rackicon3" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F0E9F8;strokeColor=#51258B;fontSize=13;" value="&lt;b&gt;RACK&lt;/b&gt;&lt;br&gt;Firewall / Router&lt;br&gt;Switch&lt;br&gt;Patch panel&lt;br&gt;Nobreak*" vertex="1">
+          <mxGeometry height="90" width="230" x="95" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="ap0" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontColor=#24512D;fontSize=11;" value="AP-SAN-1&lt;br&gt;indicativo" vertex="1">
+          <mxGeometry height="48" width="125" x="220" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ap1" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontColor=#24512D;fontSize=11;" value="AP-SAN-2&lt;br&gt;indicativo" vertex="1">
+          <mxGeometry height="48" width="125" x="650" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="ap2" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#E5F3EB;strokeColor=#3A8F64;fontColor=#24512D;fontSize=11;" value="AP-SAN-3&lt;br&gt;indicativo" vertex="1">
+          <mxGeometry height="48" width="125" x="1080" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="legend" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#B5A6C8;strokeWidth=2;fontColor=#333333;fontSize=14;verticalAlign=top;spacing=15;" value="&lt;b&gt;LEGENDA&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#2866A8&quot;&gt;■&lt;/font&gt; Setor / ambiente&lt;br&gt;&lt;font color=&quot;#2866A8&quot;&gt;□&lt;/font&gt; Ponto cabeado identificado&lt;br&gt;NB = notebook via Wi-Fi&lt;br&gt;PC = estação cabeada&lt;br&gt;AP = ponto de acesso Wi-Fi&lt;br&gt;PRN = impressora&lt;br&gt;RACK = armário de telecom&lt;br&gt;&lt;br&gt;&lt;b&gt;Wi-Fi proposto&lt;/b&gt;&lt;br&gt;SSID corporativo → VLAN 80&lt;br&gt;SSID visitante → VLAN 70&lt;br&gt;&lt;br&gt;&lt;b&gt;Observações&lt;/b&gt;&lt;br&gt;AP-SAN-01…n — quantidade, posição e cobertura dependem de vistoria RF.&lt;br&gt;&lt;br&gt;* Nobreak e capacidade do rack ainda precisam ser dimensionados." vertex="1">
+          <mxGeometry height="660" width="350" x="1260" y="66" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
